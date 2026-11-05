@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Kra Oumar Abdoul Aziz, étudiant en L2 DAS à l’UVCI.">
+  <title>Kra Oumar Abdoul Aziz | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#accueil" class="logo">Aziz<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="actif">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="ecole.html">École</a>
+      <a href="formation.html">Formation</a>
+      <a href="#projets">Projets</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <img src="photo.jpg" alt="Photo de Kra Oumar Abdoul Aziz" class="photo">
+      <p class="hello">Bonjour, je suis</p>
+      <h1>Kra Oumar <span>Abdoul Aziz</span></h1>
+      <p class="metier">Étudiant en L2 DAS · UVCI</p>
+      <p class="intro">Curieux et motivé, j’apprends chaque jour à créer des pages web pour transformer mes idées en projets concrets.</p>
+      <div class="boutons">
+        <a href="#projets" class="btn btn-plein">Voir mes projets</a>
+        <a href="#contact" class="btn btn-contour">Me contacter</a>
+      </div>
+    </section>
+
+    <section id="apropos" class="section reveal">
+      <h2 class="titre">À <span>propos</span></h2>
+      <p class="texte">Je suis étudiant en deuxième année de licence DAS à l’UVCI. J’aime apprendre, créer et relever de nouveaux défis. Ce portfolio est mon tout premier projet : il rassemble mon parcours, mes compétences et mes réalisations.</p>
+      <div class="grille">
+        <div class="carte"><h3>Niveau</h3><p>Licence 2 (L2)</p></div>
+        <div class="carte"><h3>Formation</h3><p>DAS</p></div>
+        <div class="carte"><h3>Université</h3><p>UVCI</p></div>
+      </div>
+    </section>
+
+    <section id="competences" class="section reveal">
+      <h2 class="titre">Mes <span>compétences</span></h2>
+      <div class="grille">
+        <div class="carte"><div class="icone">&lt;/&gt;</div><h3>HTML</h3><p>Structurer mes pages web avec des balises claires et propres.</p></div>
+        <div class="carte"><div class="icone">🎨</div><h3>CSS</h3><p>Mettre en forme, choisir les couleurs et adapter mes pages à tous les écrans.</p></div>
+        <div class="carte"><div class="icone">🚀</div><h3>En progression</h3><p>J’apprends de nouvelles technologies chaque semaine.</p></div>
+      </div>
+    </section>
+
+    <section id="projets" class="section reveal">
+      <h2 class="titre">Mes <span>projets</span></h2>
+      <div class="grille">
+        <article class="carte projet">
+          <div class="etiquette">Terminé</div>
+          <h3>Mon premier portfolio</h3>
+          <p>Un site personnel en HTML, CSS et JavaScript pour me présenter et montrer mon travail.</p>
+        </article>
+        <article class="carte projet">
+          <div class="etiquette gris">À venir</div>
+          <h3>Projet n°2</h3>
+          <p>Un prochain projet viendra bientôt s’ajouter ici.</p>
+        </article>
+        <article class="carte projet">
+          <div class="etiquette gris">À venir</div>
+          <h3>Projet n°3</h3>
+          <p>Un autre projet en préparation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2 class="titre">Me <span>contacter</span></h2>
+      <p class="texte">Une question, une idée, une collaboration ? Écris-moi, je réponds avec plaisir.</p>
+      <div class="grille">
+        <a class="carte lien" href="mailto:oumarabdoulazizkra@gmail.com"><div class="icone">✉️</div><h3>Email</h3><p>oumarabdoulazizkra@gmail.com</p></a>
+        <a class="carte lien" href="tel:+2250711291358"><div class="icone">📞</div><h3>Téléphone</h3><p>07 11 29 13 58</p></a>
+        <a class="carte lien" href="https://wa.me/2250711291358" target="_blank" rel="noopener"><div class="icone">💬</div><h3>WhatsApp</h3><p>Envoyer un message</p></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="annee"></span> Kra Oumar Abdoul Aziz. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

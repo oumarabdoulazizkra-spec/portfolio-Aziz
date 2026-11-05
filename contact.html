@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Kra Oumar Abdoul Aziz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">Aziz<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="ecole.html">École</a>
+      <a href="formation.html">Formation</a>
+      <a href="index.html#projets">Projets</a>
+      <a href="contact.html" class="actif">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <h1>Me <span>contacter</span></h1>
+    <p>Une question, une idée, une collaboration ? Écris-moi.</p>
+  </section>
+
+  <main class="section reveal">
+    <div class="grille">
+      <a class="carte lien" href="mailto:oumarabdoulazizkra@gmail.com"><div class="icone">✉️</div><h3>Email</h3><p>oumarabdoulazizkra@gmail.com</p></a>
+      <a class="carte lien" href="tel:+2250711291358"><div class="icone">📞</div><h3>Téléphone</h3><p>07 11 29 13 58</p></a>
+      <a class="carte lien" href="https://wa.me/2250711291358" target="_blank" rel="noopener"><div class="icone">💬</div><h3>WhatsApp</h3><p>Envoyer un message</p></a>
+    </div>
+
+    <form class="formulaire" id="formulaire">
+      <input type="text" id="nom" placeholder="Ton nom" required>
+      <input type="email" id="email" placeholder="Ton email" required>
+      <textarea id="message" rows="5" placeholder="Ton message" required></textarea>
+      <button type="submit" class="btn btn-plein">Envoyer le message</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="annee"></span> Kra Oumar Abdoul Aziz. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
